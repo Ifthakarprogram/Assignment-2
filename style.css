@@ -1,0 +1,82 @@
+/* Work sans google font */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+  *{
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  /* header style */
+  header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 40px 240px;
+  }
+  .nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-heading{
+    display: flex;
+    align-items: center;
+    margin-left: 620px;
+  }
+  .icon-heading{
+    display: flex;
+    align-items: center;
+    gap:20px;
+  }
+  .heading-two-icon{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px 24px;
+    gap: 24px;
+  }
+  .heading-two-icon a{
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .heading-two-icon li{
+    list-style: none;
+  }
+  
+  .heading-two-icon img{
+    width: 33px;
+    height:24PX;
+  }
+  .icon-heading img{
+    width: 85px;
+    height: 40px;
+  }
+  .span{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #F948B2;
+  }
+  .icon-heading h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  .nav-heading li{
+    list-style: none;
+  }
+  .nav-heading a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 32px;
+  }
+ 
