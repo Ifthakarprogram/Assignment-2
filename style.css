@@ -257,19 +257,6 @@
   bottom: 42%;
   left:42%;
 }
-.watch{
-  text-align: center;
-  font-size: 20px;
-  font-weight: bolder;
-  position:absolute;
-  bottom: 30%;
-  left:33%;
-  background: red;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border: 1px solid white;
-}
 #one{
   width: 48px;
   height: 48px;
@@ -542,6 +529,37 @@ footer{
   margin-top: 30px;
 }
 
+/* Responsive style */
+
+/* Mobile version */
+@media screen and (max-width: 425px){
+  .nav-container{
+    flex-direction: column;
+  }
+  header{
+    box-shadow: none;
+  }
+  .nav-heading{
+    flex-direction: column;
+    margin: 0px;
+    gap:30px;
+    margin-bottom: 50px;
+  }
+  .icon-heading{
+    margin-bottom: 50px;
+  }
+  .banner{
+    flex-direction: column;
+    padding: 0px;
+  }
+  .icon-paragraph{
+    flex-direction: column;
+  }
+  .heading-two-icon li{
+    width: 120px;
+  }
+ 
+}
 
 
   
